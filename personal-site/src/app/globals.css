@@ -1,18 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 33, 33, 33;
+  --background-start-rgb: 249, 249, 249;
+  --background-end-rgb: 249, 249, 249;
+  --font-family: Rubik, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 33, 33, 33;
+    --background-start-rgb: 249, 249, 249;
+    --background-end-rgb: 249, 249, 249;
+    --font-family: Rubik, sans-serif;
   }
 }
 
@@ -24,4 +27,17 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 48px;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
