@@ -31,7 +31,9 @@ export default function Contact() {
           <h1>LinkedIn</h1>
           <h1>Github</h1>
         </div>
-        <div className={styles.top}>TOP</div>
+        <div className={styles.top}>
+          <Link href="/">TOP</Link>
+        </div>
     </main>
   )
   }
