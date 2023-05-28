@@ -29,19 +29,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.logo {
-  position: absolute;
-  width: 47px;
-  height: 43px;
-  left: 84px;
-  top: 38px;
-  
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 43px;
-}
-
-.nav-bar {
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -54,51 +42,24 @@ body {
   font-weight: 300;
 }
 
-.title-intro h1 {
+.section-number {
   position: absolute;
-  width: 319px;
-  height: 86px;
-  left: 216px;
-  top: 280px;
-  
-  font-weight: 700;
+  height: 33px;
+  left: 156px;
+  top: 181px;
+
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.section-title {
+  position: absolute;
+  height: 43px;
+  left: 206px;
+  top: 173px;
+
+  font-weight: 500;
   font-size: 36px;
   line-height: 43px;
-}
-
-.title-intro h2 {
-  position: absolute;
-  width: 625px;
-  height: 56px;
-  left: 216px;
-  top: 380px;
-  
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-.links {
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.socials {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 760px;
-  left: 216px;
-}
-
-.email {
-  position: absolute;
-  width: 198px;
-  height: 19px;
-  left: 1215px;
-  top: 760px;
-  
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
 }
