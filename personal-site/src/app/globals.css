@@ -7,7 +7,7 @@
   --foreground-rgb: 33, 33, 33;
   --background-start-rgb: 249, 249, 249;
   --background-end-rgb: 249, 249, 249;
-  --font-family: Rubik, sans-serif;
+  --font-family: 'Rubik', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +15,7 @@
     --foreground-rgb: 33, 33, 33;
     --background-start-rgb: 249, 249, 249;
     --background-end-rgb: 249, 249, 249;
-    --font-family: Rubik, sans-serif;
+    --font-family: 'Rubik', sans-serif;
   }
 }
 
@@ -29,15 +29,76 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 48px;
+.logo {
+  position: absolute;
+  width: 47px;
+  height: 43px;
+  left: 84px;
+  top: 38px;
+  
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 43px;
 }
 
 .nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: absolute;
+  width: 462px;
+  height: 24px;
+  left: 951px;
+  top: 47px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.title-intro h1 {
+  position: absolute;
+  width: 319px;
+  height: 86px;
+  left: 216px;
+  top: 280px;
+  
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.title-intro h2 {
+  position: absolute;
+  width: 625px;
+  height: 56px;
+  left: 216px;
+  top: 380px;
+  
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.links {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 760px;
+  left: 216px;
+}
+
+.email {
+  position: absolute;
+  width: 198px;
+  height: 19px;
+  left: 1215px;
+  top: 760px;
+  
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
 }
