@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
+/* homepage */
+
 .logo {
     position: absolute;
-    width: 47px;
     height: 43px;
     left: 84px;
     top: 38px;
@@ -14,7 +15,6 @@
 
 .title_intro h1 {
     position: absolute;
-    width: 319px;
     height: 86px;
     left: 216px;
     top: 280px;
@@ -26,7 +26,6 @@
   
   .title_intro h2 {
     position: absolute;
-    width: 625px;
     height: 56px;
     left: 216px;
     top: 380px;
@@ -51,7 +50,6 @@
   
   .email {
     position: absolute;
-    width: 198px;
     height: 19px;
     left: 1215px;
     top: 760px;
@@ -60,4 +58,175 @@
     font-size: 16px;
     line-height: 19px;
   }
+
+  /* about page */
+
+  .section_number {
+    position: relative;
+    height: 33px;
+    top: 8px;
   
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  
+  .section_title {
+    position: relative;
+    height: 43px;
+    left: 30px;
+    top: 0px;
+  
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  .about_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 285px;
+    width: 1300px;
+  }
+
+  .d1 {
+    position: relative;
+    left: 156px;
+    width: 364px;
+    text-align: center;
+}
+
+.d2 {
+    position: relative;
+    left: 156px;
+    width: 364px;
+    text-align: center;
+}
+
+.d3 {
+    position: relative;
+    left: 156px;
+    width: 364px;
+    text-align: center;
+}
+
+.icon {
+    position: relative;
+    top: 0px;
+}
+
+.header {
+    position: relative;
+    height: 28px;
+    top: 34px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text_box {
+    position: relative;
+    width: 364px;
+    left: 0px;
+    top: 70px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/* skills page */
+
+
+/* internships page */
+
+
+/* education page */
+.entry {
+  position: relative;
+  height: 28px;
+  left: 223px;
+  top: 286px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.achievements {
+  position: relative;
+  top: 10px;
+  height: 28px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.details {
+  position: relative;
+  top: 50px;
+  height: 72px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* contacts page */
+.end {
+  position: relative;
+  height: 43px;
+  left: 635px;
+  top: 351px;
+
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.bye_msg {
+  position: relative;
+  width: 843px;
+  height: 48px;
+  left: 311px;
+  top: 404px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.mail_link {
+  position: relative;
+  height: 19px;
+  left: 725px;
+  top: 605px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.c_email {
+  position: relative;
+  height: 19px;
+  left: 655px;
+  top: 634px;
+  
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.c_socials {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 760px;
+  left: 700px;
+}
