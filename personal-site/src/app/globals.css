@@ -29,7 +29,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-nav {
+.navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -40,6 +40,14 @@ nav {
   top: 47px;
   font-size: 20px;
   font-weight: 300;
+}
+
+.navigation a:hover {
+  font-weight: 600;
+}
+
+.active {
+  font-weight: 600;
 }
 
 .section-number {

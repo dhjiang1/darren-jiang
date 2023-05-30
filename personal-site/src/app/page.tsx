@@ -5,9 +5,17 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main>
-      <div className={styles.logo}>
-        <h1>DJ</h1>
-      </div>
+
+      <header>
+        <div className={styles.logo}>DJ</div>
+        <nav className="navigation">
+          <a href="/" className="active">home</a>
+          <a href="/about">about</a>
+          <a href="/skills">skills</a>
+          <a href="/internships">experience</a>
+          <a href="/contact">contact</a>
+        </nav>
+      </header>
 
       <div className={styles.title_intro}>
         <h1>product manager &#38; developer</h1>
