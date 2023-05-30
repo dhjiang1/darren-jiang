@@ -18,26 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <div className="section">
-            <Link href="/">home</Link>
-          </div>
-          <div className="section">
-            <Link href="/about">about</Link>
-          </div>
-          <div className="section">
-            <Link href="/skills">skills</Link>
-          </div>
-          <div className="section">
-            <Link href="/internships">experience</Link>
-          </div>
-          <div className="section">
-            <Link href="/contact">contact</Link>
-          </div>
-        </nav>
         
         {children}
-      
       
       </body>
 
