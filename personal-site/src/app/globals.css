@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --foreground-rgb: 33, 33, 33;
+  --background-start-rgb: 249, 249, 249;
+  --background-end-rgb: 249, 249, 249;
+  --font-family: 'Rubik', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 33, 33, 33;
+    --background-start-rgb: 249, 249, 249;
+    --background-end-rgb: 249, 249, 249;
+    --font-family: 'Rubik', sans-serif;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 462px;
+  height: 24px;
+  left: 951px;
+  top: 47px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-number {
+  position: absolute;
+  height: 33px;
+  left: 156px;
+  top: 181px;
+
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.section-title {
+  position: absolute;
+  height: 43px;
+  left: 206px;
+  top: 173px;
+
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+}

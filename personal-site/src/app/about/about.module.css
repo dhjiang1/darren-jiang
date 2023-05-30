@@ -1,0 +1,49 @@
+.d1 {
+    position: absolute;
+    top: 310px;
+    left: 170px;
+    width: 364px;
+    text-align: center;
+}
+
+.d2 {
+    position: absolute;
+    top: 310px;
+    left: 624px;
+    width: 364px;
+    text-align: center;
+}
+
+.d3 {
+    position: absolute;
+    top: 310px;
+    left: 1078px;
+    width: 364px;
+    text-align: center;
+}
+
+.icon {
+    position: relative;
+    top: 0px;
+}
+
+.header {
+    position: relative;
+    height: 28px;
+    top: 34px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text_box {
+    position: relative;
+    width: 364px;
+    left: 0px;
+    top: 70px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
