@@ -39,13 +39,6 @@ export default function Home() {
       </section>
 
       <section className="about_page">
-        <nav className="navigation">
-          <a href="/">home</a>
-          <a href="/about" className="active">about</a>
-          <a href="/skills">skills</a>
-          <a href="/internships">experience</a>
-          <a href="/contact">contact</a>
-        </nav>
 
         <div className="section-header">
           <div className={styles.section_number}>01</div>
@@ -75,13 +68,6 @@ export default function Home() {
       </section>
 
       <section className="skills-page">
-        <nav className="navigation">
-          <a href="/">home</a>
-          <a href="/about">about</a>
-          <a href="/skills" className="active">skills</a>
-          <a href="/internships">experience</a>
-          <a href="/contact">contact</a>
-        </nav>
 
         <div className="section-header">
           <div className={styles.section_number}>02</div>
@@ -91,14 +77,6 @@ export default function Home() {
       </section>
       
       <section className="internships-page">
-
-        <nav className="navigation">
-          <a href="/">home</a>
-          <a href="/about">about</a>
-          <a href="/skills">skills</a>
-          <a href="/internships" className="active">experience</a>
-          <a href="/contact">contact</a>
-        </nav>
       
         <div className="section-header">
           <div className={styles.section_number}>03</div>
@@ -115,23 +93,15 @@ export default function Home() {
         </div>
 
         <div className={styles.entry}>
-          <b>Bachelor of Applied Science in Management Engineering, Co-op (Sep 2018 - May 2023)</b>
-          <div className={styles.achievements}>Computing Option, Honours, GPA: 3.61</div>
-          <div className={styles.achievements}>University of Waterloo, Ontario</div>
-          <div className={styles.details}>Blah Blah Blah</div>
+          <h1>Bachelor of Applied Science in Management Engineering, Co-op (Sep 2018 - May 2023)</h1>
+          <h2>Computing Option, Honours, GPA: 3.61</h2>
+          <h2>University of Waterloo, Ontario</h2>
+          <h3>Blah Blah Blah</h3>
         </div>
       
       </section>
 
       <section className="contact">
-      
-        <nav className="navigation">
-          <a href="/">home</a>
-          <a href="/about">about</a>
-          <a href="/skills">skills</a>
-          <a href="/internships">experience</a>
-          <a href="/contact" className="active">contact</a>
-        </nav>
 
         <div className={styles.end}>Let’s Chat!</div>
         <div className={styles.bye_msg}>I’m always open to meeting new individuals and discuss all things tech! Currently seeking exciting opportunities to express my expertise - send me a message if interested!</div>

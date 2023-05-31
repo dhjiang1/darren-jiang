@@ -65,6 +65,7 @@
     position: relative;
     height: 33px;
     top: 8px;
+    left: 156px;
   
     font-weight: 300;
     font-size: 28px;
@@ -74,8 +75,8 @@
   .section_title {
     position: relative;
     height: 43px;
-    left: 30px;
     top: 0px;
+    left: 186px;
   
     font-weight: 500;
     font-size: 36px;
@@ -146,30 +147,38 @@
 
 /* education page */
 .entry {
+  display: flex;
+  flex-direction: column;
   position: relative;
   height: 28px;
-  left: 223px;
   top: 286px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-indent: 223px;
+}
+
+.entry h1 {
+  position: relative;
 
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
 
-.achievements {
+.entry h2 {
   position: relative;
   top: 10px;
-  height: 28px;
 
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
 }
 
-.details {
+.entry h3 {
   position: relative;
   top: 50px;
-  height: 72px;
 
   font-weight: 400;
   font-size: 20px;
@@ -180,12 +189,12 @@
 .end {
   position: relative;
   height: 43px;
-  left: 635px;
   top: 351px;
 
   font-weight: 500;
   font-size: 36px;
   line-height: 43px;
+  text-align: center;
 }
 
 .bye_msg {
@@ -204,29 +213,29 @@
 .mail_link {
   position: relative;
   height: 19px;
-  left: 725px;
   top: 605px;
 
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
 }
 
 .c_email {
   position: relative;
   height: 19px;
-  left: 655px;
   top: 634px;
   
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
 }
 
 .c_socials {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   position: relative;
   top: 760px;
-  left: 700px;
 }
