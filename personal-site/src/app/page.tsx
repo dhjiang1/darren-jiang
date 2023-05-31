@@ -35,6 +35,10 @@ export default function Home() {
             <h1>darren.jiang135@gmail.com</h1>
           </div>
         </div>
+
+        <div className={styles.down}>
+          <div className={styles.chevron}></div>
+        </div>
       
       </section>
 

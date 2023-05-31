@@ -59,6 +59,48 @@
     line-height: 19px;
   }
 
+  .down {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+  }
+
+  .chevron {
+    position: relative;
+    text-align: center;
+
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 5px;
+    width: 200px;
+    animation: updown 1s linear infinite alternate;
+  }
+  .chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20%;
+    width: 50%;
+    background: #D7D3D3;
+    transform: skew(0deg, 17deg);
+  }
+  .chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20%;
+    width: 50%;
+    background: #D7D3D3;
+    transform: skew(0deg, -17deg);
+  }
+
+  @keyframes updown {
+    100%{transform: translateY(15px);}
+  }
+
   /* about page */
 
   .section_number {
