@@ -19,6 +19,12 @@
   }
 }
 
+/* troubleshooting
+* {
+  outline: solid 1px red;
+}
+*/
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -27,13 +33,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  margin: 0;
 }
 
 .navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  position: absolute;
+  position: relative;
   width: 462px;
   height: 24px;
   left: 951px;
@@ -50,24 +58,13 @@ body {
   font-weight: 600;
 }
 
-.section-number {
-  position: absolute;
-  height: 33px;
-  left: 156px;
-  top: 181px;
-
-  font-weight: 300;
-  font-size: 28px;
-  line-height: 33px;
+section {
+  height: 982px;
 }
 
-.section-title {
-  position: absolute;
-  height: 43px;
-  left: 206px;
+.section-header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
   top: 173px;
-
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 43px;
 }
