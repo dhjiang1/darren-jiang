@@ -108,7 +108,9 @@ export default function Home() {
       <section className="contact">
 
         <div className={styles.end}>Let’s Chat!</div>
-        <div className={styles.bye_msg}>I’m always open to meeting new individuals and discuss all things tech! Currently seeking exciting opportunities to express my expertise - send me a message if interested!</div>
+        <div className={styles.message}>
+          <div className={styles.bye_msg}>I’m always open to meeting new individuals and discuss all things tech! Currently seeking exciting opportunities to express my expertise - send me a message if interested!</div>
+        </div>
         <div className={styles.mail_link}>Mail me at</div>
         <div className={styles.c_email}>darren.jiang135@gmail.com</div>
         <div className={styles.c_socials}>

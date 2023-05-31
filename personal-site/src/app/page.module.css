@@ -74,7 +74,7 @@
     margin-bottom: 6px;
     height: 5px;
     width: 200px;
-    animation: updown 1s linear infinite alternate;
+    animation: updown .75s linear infinite alternate;
   }
   .chevron:before {
     content: '';
@@ -239,12 +239,17 @@
   text-align: center;
 }
 
+.message {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 380px;
+}
+
 .bye_msg {
   position: relative;
-  width: 843px;
   height: 48px;
-  left: 311px;
-  top: 404px;
+  width: 900px;
 
   font-weight: 400;
   font-size: 20px;
