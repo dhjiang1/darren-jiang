@@ -16,6 +16,7 @@ export default function Home() {
           <a href="/internships">experience</a>
           <a href="/contact">contact</a>
         </nav>
+
       </header>
 
       <section className="homepage">
@@ -87,6 +88,27 @@ export default function Home() {
           <div className={styles.section_title}>Internships</div>
         </div>
 
+        <div className="swiper mySwiper">
+        
+          <div className="swiper-wrapper">
+            <div className="card">
+              
+              <div className="card-image">
+                <img src="/images/bmo.jpeg" alt="card image"></img>
+              </div>
+
+              <div className="card-content">
+                <span className="card-title">Software Engineer</span>
+                <span className="card-company">BMO</span>
+                <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nulla eu interdum lobortis.</p>
+                <button className="card-btn">View More</button>
+              </div>
+
+            </div>
+            
+          </div>
+
+        </div>
       </section>
 
       <section className="education-page">
