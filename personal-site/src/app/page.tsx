@@ -124,7 +124,6 @@ export default function Home() {
 
         </div> */}
 
-<div className="mySwiper">
 
 <Swiper
         effect={"coverflow"}
@@ -138,7 +137,10 @@ export default function Home() {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
+        pagination={{
+          enabled: true,
+          clickable: true,
+        }}
         modules={[EffectCoverflow, Pagination]}
       >
         <SwiperSlide>
@@ -239,7 +241,7 @@ export default function Home() {
               </div>
         </SwiperSlide>
       </Swiper>
-      </div>
+
 
         
       </section>

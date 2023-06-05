@@ -74,13 +74,14 @@ section {
   width: 100%;
   position: relative;
   top: 250px;
-  height: 500px;
+  height: 600px;
   padding-top: 50px;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 
 div .swiper, div .swiper-container {
-  overflow: visible;
+  padding-top: 50px;
 }
 
 div .swiper-slide {
@@ -93,18 +94,13 @@ div .swiper-slide {
   display: none;
 }
 
-/* .swiper-wrapper {
-  width: 100%;
-  height: 35em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #F9F9F9;
-} */
+.swiper-wrapper {
+  padding-top: 50px;
+}
 
 .card {
   width: 20em;
-  height: 90%;
+  height: 80%;
   background-color: white;
   border-radius: 2em;
   box-shadow: 0 0 2em rgb(0, 0, 0, .2);
@@ -113,6 +109,10 @@ div .swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.pagination {
+  padding-top: 20px;
 }
 
 .card-image {
