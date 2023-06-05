@@ -1,9 +1,23 @@
+'use client';
+
 import Image from 'next/image'
 import './globals.css'
 import styles from './page.module.css'
 import Link from 'next/link'
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+// import required modules
+import { EffectCoverflow, Pagination } from "swiper";
 
 export default function Home() {
+
   return (
     <main>
 
@@ -88,11 +102,11 @@ export default function Home() {
           <div className={styles.section_title}>Internships</div>
         </div>
 
-        <div className="swiper mySwiper">
+        {/* <div className="swiper">
         
           <div className="swiper-wrapper">
             <div className="card">
-              
+
               <div className="card-image">
                 <img src="/images/bmo.jpeg" alt="card image"></img>
               </div>
@@ -105,10 +119,129 @@ export default function Home() {
               </div>
 
             </div>
-            
+
           </div>
 
-        </div>
+        </div> */}
+
+<div className="mySwiper">
+
+<Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+      >
+        <SwiperSlide>
+              <div className="card">
+
+                <div className="card-image">
+                  <img src="/images/bmo.jpeg" alt="card image"></img>
+                </div>
+
+                <div className="card-content">
+                  <span className="card-title">Software Engineer</span>
+                  <span className="card-company">BMO</span>
+                  <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nulla eu interdum lobortis.</p>
+                  <button className="card-btn">View More</button>
+                </div>
+
+              </div>
+        </SwiperSlide>        
+        <SwiperSlide>
+          
+              <div className="card">
+
+                <div className="card-image">
+                  <img src="/images/bmo.jpeg" alt="card image"></img>
+                </div>
+
+                <div className="card-content">
+                  <span className="card-title">Software Engineer</span>
+                  <span className="card-company">BMO</span>
+                  <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nulla eu interdum lobortis.</p>
+                  <button className="card-btn">View More</button>
+                </div>
+
+              </div>
+        </SwiperSlide>
+        <SwiperSlide>
+              <div className="card">
+
+                <div className="card-image">
+                  <img src="/images/bmo.jpeg" alt="card image"></img>
+                </div>
+
+                <div className="card-content">
+                  <span className="card-title">Software Engineer</span>
+                  <span className="card-company">BMO</span>
+                  <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nulla eu interdum lobortis.</p>
+                  <button className="card-btn">View More</button>
+                </div>
+
+              </div>
+        </SwiperSlide>
+        <SwiperSlide>
+              <div className="card">
+
+                <div className="card-image">
+                  <img src="/images/bmo.jpeg" alt="card image"></img>
+                </div>
+
+                <div className="card-content">
+                  <span className="card-title">Software Engineer</span>
+                  <span className="card-company">BMO</span>
+                  <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nulla eu interdum lobortis.</p>
+                  <button className="card-btn">View More</button>
+                </div>
+
+              </div>
+        </SwiperSlide>
+        <SwiperSlide>
+              <div className="card">
+
+                <div className="card-image">
+                  <img src="/images/bmo.jpeg" alt="card image"></img>
+                </div>
+
+                <div className="card-content">
+                  <span className="card-title">Software Engineer</span>
+                  <span className="card-company">BMO</span>
+                  <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nulla eu interdum lobortis.</p>
+                  <button className="card-btn">View More</button>
+                </div>
+
+              </div>
+        </SwiperSlide>
+        <SwiperSlide>
+              <div className="card">
+
+                <div className="card-image">
+                  <img src="/images/bmo.jpeg" alt="card image"></img>
+                </div>
+
+                <div className="card-content">
+                  <span className="card-title">Software Engineer</span>
+                  <span className="card-company">BMO</span>
+                  <p className="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nulla eu interdum lobortis.</p>
+                  <button className="card-btn">View More</button>
+                </div>
+
+              </div>
+        </SwiperSlide>
+      </Swiper>
+      </div>
+
+        
       </section>
 
       <section className="education-page">
