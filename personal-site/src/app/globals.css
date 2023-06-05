@@ -50,8 +50,9 @@ body {
   font-weight: 300;
 }
 
-.navigation a:hover {
+.navigation h1:hover {
   font-weight: 600;
+  cursor: pointer;
 }
 
 .active {
@@ -73,8 +74,8 @@ section {
 .swiper {
   width: 100%;
   position: relative;
-  top: 250px;
-  height: 600px;
+  top: 200px;
+  height: 625px;
   padding-top: 50px;
   padding-bottom: 50px;
   overflow: hidden;
@@ -172,5 +173,9 @@ div .swiper-slide {
   margin-top: .5em;
   cursor: pointer;
   position: relative;
-  top: 2em;
+  top: 1.5em;
+}
+
+div .swiper-pagination-bullet-active {
+  background: #212121;
 }
