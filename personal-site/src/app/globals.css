@@ -50,8 +50,9 @@ body {
   font-weight: 300;
 }
 
-.navigation a:hover {
+.navigation h1:hover {
   font-weight: 600;
+  cursor: pointer;
 }
 
 .active {
@@ -67,4 +68,114 @@ section {
   flex-direction: row;
   position: relative;
   top: 173px;
+}
+
+/* slider */
+.swiper {
+  width: 100%;
+  position: relative;
+  top: 200px;
+  height: 625px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+div .swiper, div .swiper-container {
+  padding-top: 50px;
+}
+
+div .swiper-slide {
+  display: flex;
+  justify-content: center;
+  width: 20em;
+}
+
+.swiper-slide-shadow-left, .swiper-slide-shadow-right {
+  display: none;
+}
+
+.swiper-wrapper {
+  padding-top: 50px;
+}
+
+.card {
+  width: 20em;
+  height: 80%;
+  background-color: white;
+  border-radius: 2em;
+  box-shadow: 0 0 2em rgb(0, 0, 0, .2);
+  padding: 2em, 1em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination {
+  padding-top: 20px;
+}
+
+.card-image {
+  position: relative;
+  top: 1.5em;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  border: 5px solid #212121;
+  padding: 3px;
+  margin-bottom: 2em;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 1em;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  position: relative;
+  top: .2em;
+}
+
+.card-company {
+  color: #212121
+}
+
+.card-text {
+  position: relative;
+  top: 1em;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1em, 0;
+}
+
+.card-btn {
+  background-color: #D7D3D3;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: .5em;
+  border-radius: .5em;
+  margin-top: .5em;
+  cursor: pointer;
+  position: relative;
+  top: 1.5em;
+}
+
+div .swiper-pagination-bullet-active {
+  background: #212121;
 }
