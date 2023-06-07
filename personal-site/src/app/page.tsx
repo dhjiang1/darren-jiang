@@ -15,8 +15,16 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
+import SearchInput from './SearchInput';
+import PhotoSphere from './PhotoSphere';
 
 export default function Home() {
+
+  const [data, setData] = useState<{imageData:string[]}>({imageData:[]})
+  
+  const setImageData = (data:string[]) => {
+    setData({imageData:data})
+  }
 
   return (
     <main>
@@ -91,6 +99,11 @@ export default function Home() {
         <div className="section-header">
           <div className={styles.section_number}>02</div>
           <div className={styles.section_title}>Skills</div>
+        </div>
+
+        <div className="w-screen h-screen p-2 flex flex-col items-center overflow-hidden">
+          <SearchInput setImageData={setImageData}/> 
+          <PhotoSphere imageData={data.imageData}></PhotoSphere>
         </div>
       
       </section>
