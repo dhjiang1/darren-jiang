@@ -19,11 +19,11 @@
   }
 }
 
-/* troubleshooting
-* {
+/* troubleshooting */
+/* * {
   outline: solid 1px red;
-}
-*/
+} */
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -181,6 +181,8 @@ div .swiper-pagination-bullet-active {
 }
 
 .container {
+  position: relative;
+  top: 173px;
   max-width: 100%;
   width: 100%;
   height: 660px;
@@ -190,5 +192,30 @@ div .swiper-pagination-bullet-active {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
-  
+}
+
+.photopshere {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  backface-visibility: visible;
+  transform: translateZ(-1200px);
+  transition: 0.25s all ease-out;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50%;
+  cursor: pointer;
+}
+
+.photosphere-item {
+  width: 120px;
+  height: 120px;
+  transform-origin: 100% 50%;
+  position: absolute;
+  backface-visibility: visible;
+  border: 4px solid #111;
+  border-radius: 50%;
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
