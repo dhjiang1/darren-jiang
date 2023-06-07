@@ -18,6 +18,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 
 export default function Home() {
 
+  // TODO: add function for styles --i:1 in the span tag
   return (
     <main>
 
@@ -91,6 +92,12 @@ export default function Home() {
         <div className="section-header">
           <div className={styles.section_number}>02</div>
           <div className={styles.section_title}>Skills</div>
+        </div>
+        
+        <div className={styles.csection}>
+          <div className={styles.carousel}>
+            <span><img src="/images/bmo.jpeg"></img></span>
+          </div>
         </div>
       
       </section>
