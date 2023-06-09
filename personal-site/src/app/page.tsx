@@ -33,16 +33,16 @@ export default function Home() {
       <header>
         <div className={styles.logo}>DJ</div>
         <nav className="navigation">
-          <h1 className="active">home</h1>
-          <h1>about</h1>
-          <h1>skills</h1>
-          <h1>experience</h1>
-          <h1>contact</h1>
+          <a href="#homepage"><h1 className="active">home</h1></a>
+          <a href="#about_page"><h1>about</h1></a>
+          <a href="#skills_page"><h1>skills</h1></a>
+          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#contact"><h1>contact</h1></a>
         </nav>
 
       </header>
 
-      <section className="homepage">
+      <section id="homepage">
 
         <div className={styles.title_intro}>
           <h1>product manager <br></br>&#38; developer</h1>
@@ -66,7 +66,15 @@ export default function Home() {
       
       </section>
 
-      <section className="about_page">
+      <section id="about_page">
+
+        <nav className="navigation">
+          <a href="#homepage"><h1>home</h1></a>
+          <a href="#about_page"><h1 className="active">about</h1></a>
+          <a href="#skills_page"><h1>skills</h1></a>
+          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#contact"><h1>contact</h1></a>
+        </nav>
 
         <div className="section-header">
           <div className={styles.section_number}>01</div>
@@ -95,7 +103,15 @@ export default function Home() {
 
       </section>
 
-      <section className="skills-page">
+      <section id="skills_page">
+
+        <nav className="navigation">
+          <a href="#homepage"><h1>home</h1></a>
+          <a href="#about_page"><h1>about</h1></a>
+          <a href="#skills_page"><h1 className="active">skills</h1></a>
+          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#contact"><h1>contact</h1></a>
+        </nav>
 
         <div className="section-header">
           <div className={styles.section_number}>02</div>
@@ -131,7 +147,15 @@ export default function Home() {
       
       </section>
       
-      <section className="internships-page">
+      <section id="internships_page">
+        
+        <nav className="navigation">
+          <a href="#homepage"><h1>home</h1></a>
+          <a href="#about_page"><h1>about</h1></a>
+          <a href="#skills_page"><h1>skills</h1></a>
+          <a href="#internships_page"><h1 className="active">experience</h1></a>
+          <a href="#contact"><h1>contact</h1></a>
+        </nav>
       
         <div className="section-header">
           <div className={styles.section_number}>03</div>
@@ -275,7 +299,7 @@ export default function Home() {
         
       </section>
 
-      <section className="education-page">
+      <section id="education-page">
       
         <div className="section-header">
           <div className={styles.section_number}>04</div>
@@ -292,7 +316,14 @@ export default function Home() {
       
       </section>
 
-      <section className={styles.contact}>
+      <section className={styles.contact} id="contact">
+        <nav className="navigation">
+          <a href="#homepage"><h1>home</h1></a>
+          <a href="#about_page"><h1>about</h1></a>
+          <a href="#skills_page"><h1>skills</h1></a>
+          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#contact"><h1 className="active">contact</h1></a>
+        </nav>
 
         <div className={styles.end}>Let’s Chat!</div>
         <div className={styles.message}>

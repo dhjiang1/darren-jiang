@@ -201,7 +201,7 @@
 /* skills page */
 .csection {
   position: relative;
-  top: 300px;
+  top: 230px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -217,7 +217,7 @@
 
 .carousel2 {
   position: relative;
-  top: 225px;
+  top: 200px;
   width: 115px;
   height: 115px;
   transform-style: preserve-3d;
@@ -316,12 +316,13 @@
 .contact {
   background-color: #212121;
   color: #D7D3D3;
+  height: 880px;
 }
 
 .end {
   position: relative;
   height: 43px;
-  top: 351px;
+  top: 275px;
 
   font-weight: 500;
   font-size: 36px;
@@ -333,7 +334,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 380px;
+  top: 295px;
 }
 
 .bye_msg {
@@ -350,7 +351,7 @@
 .mail_link {
   position: relative;
   height: 19px;
-  top: 605px;
+  top: 500px;
 
   font-weight: 400;
   font-size: 16px;
@@ -361,7 +362,7 @@
 .c_email {
   position: relative;
   height: 19px;
-  top: 634px;
+  top: 530px;
   
   font-weight: 300;
   font-size: 16px;
@@ -372,13 +373,13 @@
 .c_socials {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0px 750px 0px;
   position: relative;
-  top: 760px;
+  top: 650px;
 }
 
 .c_socials svg {
-  margin-right: 30px;
   height: 25px;
   width: 25px;
   fill: #D7D3D3;
