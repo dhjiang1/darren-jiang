@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <main>
 
-      <header>
+      {/* <header>
         <div className={styles.logo}>DJ</div>
         <nav className="navigation">
           <a href="#homepage"><h1 className="active">home</h1></a>
@@ -40,9 +40,17 @@ export default function Home() {
           <a href="#contact"><h1>contact</h1></a>
         </nav>
 
-      </header>
+      </header> */}
 
       <section id="homepage">
+
+        <nav className="navigation">
+          <a href="#homepage"><h1 className="active">home</h1></a>
+          <a href="#about_page"><h1>about</h1></a>
+          <a href="#skills_page"><h1>skills</h1></a>
+          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#contact"><h1>contact</h1></a>
+        </nav>
 
         <div className={styles.title_intro}>
           <h1>product manager <br></br>&#38; developer</h1>

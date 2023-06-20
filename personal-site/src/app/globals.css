@@ -19,11 +19,11 @@
   }
 }
 
-/* troubleshooting
-* {
+/* troubleshooting */
+/* * {
   outline: solid 1px red;
-}
-*/
+} */
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -60,7 +60,8 @@ body {
 }
 
 section {
-  height: 882px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .section-header {

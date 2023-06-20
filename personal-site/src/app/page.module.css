@@ -2,7 +2,7 @@
 
 /* homepage */
 
-.logo {
+/* .logo {
     position: absolute;
     height: 43px;
     left: 84px;
@@ -11,28 +11,28 @@
     font-weight: 300;
     font-size: 36px;
     line-height: 43px;
-  }
+  } */
 
 .title_intro h1 {
     position: absolute;
-    height: 86px;
+    height: 9.728506787330318vh;
     left: 216px;
-    top: 280px;
+    top: 31.67420814479638vh;
     
     font-weight: 700;
     font-size: 36px;
-    line-height: 43px;
+    line-height: 4.864253393665159vh;
   }
   
   .title_intro h2 {
     position: absolute;
-    height: 56px;
+    height: 6.334841628959276vh;
     left: 216px;
-    top: 380px;
+    top: 42.98642533936652vh;
     
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 3.167420814479638vh;
   }
   
   .links {
@@ -44,44 +44,45 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 760px;
+    top: 85.97285067873304vh;
     left: 216px;
   }
 
   .socials img {
     margin-right: 30px;
-    height: 25px;
+    height: 2.828054298642534vh;
     width: 25px;
   }
   
   .email {
     position: absolute;
-    height: 19px;
+    height: 2.1493212669683257vh;
     left: 1215px;
-    top: 760px;
+    top: 85.97285067873304vh;
     
     font-weight: 300;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 2.1493212669683257vh;
   }
 
   .down {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 600px;
+    top: 67.87330316742081vh;
   }
 
   .chevron {
     position: relative;
     text-align: center;
 
-    padding: 12px;
-    margin-bottom: 6px;
-    height: 5px;
+    padding: 1.3574660633484164vh;
+    margin-bottom: 0.6787330316742082vh;
+    height: 0.5656108597285068vh;
     width: 200px;
     animation: updown .75s linear infinite alternate;
   }
+
   .chevron:before {
     content: '';
     position: absolute;
@@ -92,6 +93,7 @@
     background: #D7D3D3;
     transform: skew(0deg, 17deg);
   }
+
   .chevron:after {
     content: '';
     position: absolute;
@@ -104,7 +106,7 @@
   }
 
   @keyframes updown {
-    100%{transform: translateY(15px);}
+    100%{transform: translateY(1.6968325791855203vh);}
   }
 
   /* about page */
@@ -316,7 +318,7 @@
 .contact {
   background-color: #212121;
   color: #D7D3D3;
-  height: 880px;
+  height: 100vh;
 }
 
 .end {
