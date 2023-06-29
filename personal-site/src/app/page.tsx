@@ -233,7 +233,7 @@ export default function Home() {
                 <div className="card-content">
                   <span className="card-title">Product Manager</span>
                   <span className="card-company">RadicalX</span>
-                  <p className="card-text">Freelance project developing and shipping a new internship addition dashboard for partnered companies as part of RadicalX's revolutionary internship model.</p>
+                  <p className="card-text">Freelance project developing and shipping a new internship addition dashboard for partnered companies as part of RadicalX&apos;s revolutionary internship model.</p>
                   <button className="card-btn">View More</button>
                 </div>
 
