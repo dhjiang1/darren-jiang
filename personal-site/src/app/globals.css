@@ -19,11 +19,11 @@
   }
 }
 
-/* troubleshooting
-* {
+/* troubleshooting */
+/* * {
   outline: solid 1px red;
-}
-*/
+} */
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -60,21 +60,22 @@ body {
 }
 
 section {
-  height: 982px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .section-header {
   display: flex;
   flex-direction: row;
   position: relative;
-  top: 173px;
+  top: 125px;
 }
 
 /* slider */
 .swiper {
   width: 100%;
   position: relative;
-  top: 200px;
+  top: 150px;
   height: 625px;
   padding-top: 50px;
   padding-bottom: 50px;
