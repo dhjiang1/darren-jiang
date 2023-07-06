@@ -53,8 +53,8 @@ export default function Home() {
         </nav>
 
         <div className={styles.title_intro}>
-          <h1>product manager <br></br>&#38; developer</h1>
-          <h2>Hi, I&apos;m Darren Jiang! A passionate Product Manager and <br></br>Developer all about challenging the status quo.</h2>
+          <h1>product manager <br></br>&#38; software engineer</h1>
+          <h2>Hi, I&apos;m Darren Jiang! A passionate Product Manager and <br></br>Software Engineer all about challenging the status quo.</h2>
         </div>
 
         <div className={styles.links}>
@@ -75,14 +75,6 @@ export default function Home() {
       </section>
 
       <section id="about_page">
-
-        <nav className="navigation">
-          <a href="#homepage"><h1>home</h1></a>
-          <a href="#about_page"><h1 className="active">about</h1></a>
-          <a href="#skills_page"><h1>skills</h1></a>
-          <a href="#internships_page"><h1>experience</h1></a>
-          <a href="#contact"><h1>contact</h1></a>
-        </nav>
 
         <div className="section-header">
           <div className={styles.section_number}>01</div>
@@ -112,14 +104,6 @@ export default function Home() {
       </section>
 
       <section id="skills_page">
-
-        <nav className="navigation">
-          <a href="#homepage"><h1>home</h1></a>
-          <a href="#about_page"><h1>about</h1></a>
-          <a href="#skills_page"><h1 className="active">skills</h1></a>
-          <a href="#internships_page"><h1>experience</h1></a>
-          <a href="#contact"><h1>contact</h1></a>
-        </nav>
 
         <div className="section-header">
           <div className={styles.section_number}>02</div>
@@ -156,14 +140,6 @@ export default function Home() {
       </section>
       
       <section id="internships_page">
-        
-        <nav className="navigation">
-          <a href="#homepage"><h1>home</h1></a>
-          <a href="#about_page"><h1>about</h1></a>
-          <a href="#skills_page"><h1>skills</h1></a>
-          <a href="#internships_page"><h1 className="active">experience</h1></a>
-          <a href="#contact"><h1>contact</h1></a>
-        </nav>
       
         <div className="section-header">
           <div className={styles.section_number}>03</div>
@@ -319,7 +295,8 @@ export default function Home() {
           <h2>Computing Option, Honours, GPA: 3.61</h2>
           <h2>University of Waterloo, Ontario</h2>
           <h3><b>Relevant Coursework:</b> Algorithms and Data Structures, HCI, Probability and Statistics, Databases and Software Design, Principles of Software Engineering (Scrum, Kanban, Waterfall), Analytics and User Experience</h3>
-          <h3></h3>
+          <h3><b>UWPM VP Outreach:</b> Directed team of 4 outreach leads in the procurement of over $2000 in sponsorship funds</h3>
+          <h3><b>Digitizing KidsAbility:</b> Spearheaded development of a data analytics platform built with PostgreSQL and React.js to replace physical processes, saving practitioners <b>76 hours a week</b></h3>
         </div>
       
       </section>

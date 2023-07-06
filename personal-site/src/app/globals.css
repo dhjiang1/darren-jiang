@@ -24,6 +24,11 @@
   outline: solid 1px red;
 } */
 
+  /* resizing ref
+  36px ~ 2.5 em
+  24px ~ 1.5em
+  */
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -42,11 +47,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  width: 462px;
-  height: 24px;
-  left: 951px;
-  top: 47px;
-  font-size: 20px;
+  width: 32vw;
+  height: 5vh;
+  left: 60vw;
+  top: 6.5vh;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -67,8 +72,10 @@ section {
 .section-header {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   position: relative;
-  top: 125px;
+  top: 15vh;
+  margin-left: 8vw;
 }
 
 /* slider */
