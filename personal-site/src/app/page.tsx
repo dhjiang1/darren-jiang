@@ -53,8 +53,12 @@ export default function Home() {
         </nav>
 
         <div className={styles.title_intro}>
-          <h1>product manager <br></br>&#38; developer</h1>
-          <h2>Hi, I&apos;m Darren Jiang! A passionate Product Manager and <br></br>Developer all about challenging the status quo.</h2>
+          <h1>product manager <br></br>&#38; software engineer</h1>
+          <h2>Hi, I&apos;m Darren Jiang! A passionate Product Manager and <br></br>Software Engineer all about challenging the status quo.</h2>
+        </div>
+
+        <div className={styles.me}>
+          <img src="/images/memeoji.png" alt="An image of me"></img>
         </div>
 
         <div className={styles.links}>
@@ -75,14 +79,6 @@ export default function Home() {
       </section>
 
       <section id="about_page">
-
-        <nav className="navigation">
-          <a href="#homepage"><h1>home</h1></a>
-          <a href="#about_page"><h1 className="active">about</h1></a>
-          <a href="#skills_page"><h1>skills</h1></a>
-          <a href="#internships_page"><h1>experience</h1></a>
-          <a href="#contact"><h1>contact</h1></a>
-        </nav>
 
         <div className="section-header">
           <div className={styles.section_number}>01</div>
@@ -113,14 +109,6 @@ export default function Home() {
 
       <section id="skills_page">
 
-        <nav className="navigation">
-          <a href="#homepage"><h1>home</h1></a>
-          <a href="#about_page"><h1>about</h1></a>
-          <a href="#skills_page"><h1 className="active">skills</h1></a>
-          <a href="#internships_page"><h1>experience</h1></a>
-          <a href="#contact"><h1>contact</h1></a>
-        </nav>
-
         <div className="section-header">
           <div className={styles.section_number}>02</div>
           <div className={styles.section_title}>Skills</div>
@@ -128,42 +116,34 @@ export default function Home() {
         
         <div className={styles.csection}>
           <div className={styles.carousel}>
-            <span style={setStyle(1)}><img src="/images/python.png"></img></span>
-            <span style={setStyle(2)}><img src="/images/java.png"></img></span>
-            <span style={setStyle(3)}><img src="/images/javascript.png"></img></span>
-            <span style={setStyle(4)}><img src="/images/typescript.png"></img></span>
-            <span style={setStyle(5)}><img src="/images/html.png"></img></span>
-            <span style={setStyle(6)}><img src="/images/css.png"></img></span>
-            <span style={setStyle(7)}><img src="/images/R.png"></img></span>
-            <span style={setStyle(8)}><img src="/images/sql.png"></img></span>
+            <span style={setStyle(1)}><img src="/images/python.png" alt="skill icon"></img></span>
+            <span style={setStyle(2)}><img src="/images/java.png" alt="skill icon"></img></span>
+            <span style={setStyle(3)}><img src="/images/javascript.png" alt="skill icon"></img></span>
+            <span style={setStyle(4)}><img src="/images/typescript.png" alt="skill icon"></img></span>
+            <span style={setStyle(5)}><img src="/images/html.png" alt="skill icon"></img></span>
+            <span style={setStyle(6)}><img src="/images/css.png" alt="skill icon"></img></span>
+            <span style={setStyle(7)}><img src="/images/R.png" alt="skill icon"></img></span>
+            <span style={setStyle(8)}><img src="/images/sql.png" alt="skill icon"></img></span>
           </div>
           
         </div>
 
         <div className={styles.csection}>
           <div className={styles.carousel2}>
-            <span style={setStyle(1)}><img src="/images/figma.png"></img></span>
-            <span style={setStyle(2)}><img src="/images/react.png"></img></span>
-            <span style={setStyle(3)}><img src="/images/git.png"></img></span>
-            <span style={setStyle(4)}><img src="/images/power bi.png"></img></span>
-            <span style={setStyle(5)}><img src="/images/jira.png"></img></span>
-            <span style={setStyle(6)}><img src="/images/webflow.png"></img></span>
-            <span style={setStyle(7)}><img src="/images/hadoop.png"></img></span>
-            <span style={setStyle(8)}><img src="/images/ruby on rails.png"></img></span>
+            <span style={setStyle(1)}><img src="/images/figma.png" alt="skill icon"></img></span>
+            <span style={setStyle(2)}><img src="/images/react.png" alt="skill icon"></img></span>
+            <span style={setStyle(3)}><img src="/images/git.png" alt="skill icon"></img></span>
+            <span style={setStyle(4)}><img src="/images/power bi.png" alt="skill icon"></img></span>
+            <span style={setStyle(5)}><img src="/images/jira.png" alt="skill icon"></img></span>
+            <span style={setStyle(6)}><img src="/images/webflow.png" alt="skill icon"></img></span>
+            <span style={setStyle(7)}><img src="/images/hadoop.png" alt="skill icon"></img></span>
+            <span style={setStyle(8)}><img src="/images/ruby on rails.png" alt="skill icon"></img></span>
           </div>
         </div>
       
       </section>
       
       <section id="internships_page">
-        
-        <nav className="navigation">
-          <a href="#homepage"><h1>home</h1></a>
-          <a href="#about_page"><h1>about</h1></a>
-          <a href="#skills_page"><h1>skills</h1></a>
-          <a href="#internships_page"><h1 className="active">experience</h1></a>
-          <a href="#contact"><h1>contact</h1></a>
-        </nav>
       
         <div className="section-header">
           <div className={styles.section_number}>03</div>
@@ -201,7 +181,7 @@ export default function Home() {
                 <span className="card-title">Software Engineer</span>
                 <span className="card-company">BMO</span>
                 <p className="card-text">Integrated SQL and Python in PowerBI as part of a visualization dashboard used for data-drvien performance monitoring.</p>
-                <button className="card-btn">View More</button>
+                <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
               </div>
 
             </div>
@@ -217,7 +197,7 @@ export default function Home() {
                   <span className="card-title">Fullstack Developer</span>
                   <span className="card-company">SponsorPulse</span>
                   <p className="card-text">Drove scrum team of 3 engineers in the redesign of IMI International’s global sponsorship intelligence platform used by 300+ clients.</p>
-                  <button className="card-btn">View More</button>
+                  <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
               </div>
@@ -234,7 +214,7 @@ export default function Home() {
                   <span className="card-title">Product Manager</span>
                   <span className="card-company">RadicalX</span>
                   <p className="card-text">Freelance project developing and shipping a new internship addition dashboard for partnered companies as part of RadicalX&apos;s revolutionary internship model.</p>
-                  <button className="card-btn">View More</button>
+                  <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
               </div>
@@ -250,7 +230,7 @@ export default function Home() {
                   <span className="card-title">Data Analyst II</span>
                   <span className="card-company">Scotiabank</span>
                   <p className="card-text"> Utilized industry standard technology like Haddop and Hive in the analysis of 100,000+ data files as part of the enterprise EDL migration.</p>
-                  <button className="card-btn">View More</button>
+                  <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
               </div>
@@ -266,7 +246,7 @@ export default function Home() {
                   <span className="card-title">Associate Product Manager</span>
                   <span className="card-company">American Express Canada</span>
                   <p className="card-text">Collaborated with cross-functional team members in the development of a new standalone user authentication app adopted by 2 existing Amex card products.</p>
-                  <button className="card-btn">View More</button>
+                  <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
               </div>
@@ -282,7 +262,7 @@ export default function Home() {
                   <span className="card-title">Software Engineer</span>
                   <span className="card-company">BMO</span>
                   <p className="card-text">Developed Python scripts integrated with GUI designs to minimize manual labour requirements and streamline quality assurance practices.</p>
-                  <button className="card-btn">View More</button>
+                  <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
               </div>
@@ -297,8 +277,8 @@ export default function Home() {
                 <div className="card-content">
                   <span className="card-title">Business Analyst</span>
                   <span className="card-company">BMO</span>
-                  <p className="card-text">Provided standby support of production level features including the analysis of documentation logs as a means of ensuring successful deployment.</p>
-                  <button className="card-btn">View More</button>
+                  <p className="card-text">Provided standby support of production level features, including the analysis of documentation logs, as a means of ensuring successful deployment.</p>
+                  <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
               </div>
@@ -319,7 +299,8 @@ export default function Home() {
           <h2>Computing Option, Honours, GPA: 3.61</h2>
           <h2>University of Waterloo, Ontario</h2>
           <h3><b>Relevant Coursework:</b> Algorithms and Data Structures, HCI, Probability and Statistics, Databases and Software Design, Principles of Software Engineering (Scrum, Kanban, Waterfall), Analytics and User Experience</h3>
-          <h3></h3>
+          <h3><b>UWPM VP Outreach:</b> Directed team of 4 outreach leads in the procurement of over $2000 in sponsorship funds</h3>
+          <h3><b>Digitizing KidsAbility:</b> Spearheaded development of a data analytics platform built with PostgreSQL and React.js to replace physical processes, saving practitioners <b>76 hours a week</b></h3>
         </div>
       
       </section>
@@ -333,7 +314,7 @@ export default function Home() {
           <a href="#contact"><h1 className="active">contact</h1></a>
         </nav>
 
-        <div className={styles.end}>Let’s Chat!</div>
+        <div className={styles.end}>Let’s Chat! &#128075;</div>
         <div className={styles.message}>
           <div className={styles.bye_msg}>I’m always open to meeting new individuals and discuss all things tech! Currently seeking exciting opportunities to express my expertise - send me a message if interested!</div>
         </div>
