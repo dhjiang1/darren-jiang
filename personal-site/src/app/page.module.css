@@ -114,6 +114,12 @@
   @keyframes updown {
     100%{transform: translateY(1.7vh);}
   }
+  
+  .me {
+    position: absolute;
+    top: 22vh;
+    left: 60vw;
+  }
 
   /* about page */
 

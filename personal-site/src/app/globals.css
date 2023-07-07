@@ -82,15 +82,15 @@ section {
 .swiper {
   width: 100%;
   position: relative;
-  top: 150px;
-  height: 625px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  top: 20vh;
+  height: 75vh;
+  padding-top: 7vh;
+  padding-bottom: 7vh;
   overflow: hidden;
 }
 
 div .swiper, div .swiper-container {
-  padding-top: 50px;
+  padding-top: 7vh;
 }
 
 div .swiper-slide {
@@ -104,7 +104,7 @@ div .swiper-slide {
 }
 
 .swiper-wrapper {
-  padding-top: 50px;
+  padding-top: 7vh;
 }
 
 .card {
@@ -121,7 +121,7 @@ div .swiper-slide {
 }
 
 .pagination {
-  padding-top: 20px;
+  padding-top: 1.2em;
 }
 
 .card-image {
@@ -130,8 +130,8 @@ div .swiper-slide {
   width: 10em;
   height: 10em;
   border-radius: 50%;
-  border: 5px solid #212121;
-  padding: 3px;
+  border: 0.3em solid #212121;
+  padding: 0.2em;
   margin-bottom: 2em;
 }
 
@@ -151,8 +151,8 @@ div .swiper-slide {
 }
 
 .card-title {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 500;
   position: relative;
   top: .2em;
 }
@@ -166,7 +166,8 @@ div .swiper-slide {
   top: 1em;
   text-align: center;
   font-size: 1.1rem;
-  margin: 1em, 0;
+  margin: 0.5em;
+  font-weight: 400;
 }
 
 .card-btn {
@@ -176,12 +177,12 @@ div .swiper-slide {
   text-transform: uppercase;
   font-weight: 700;
   border: none;
-  padding: .5em;
+  padding: .25em;
   border-radius: .5em;
   margin-top: .5em;
   cursor: pointer;
   position: relative;
-  top: 1.5em;
+  top: 1em;
 }
 
 div .swiper-pagination-bullet-active {
