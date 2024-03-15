@@ -203,23 +203,6 @@ export default function Home() {
               </div>
         </SwiperSlide>
         <SwiperSlide>
-          
-              <div className="card">
-
-                <div className="card-image">
-                  <img src="/images/radx.jpeg" alt="card image"></img>
-                </div>
-
-                <div className="card-content">
-                  <span className="card-title">Product Manager</span>
-                  <span className="card-company">RadicalX</span>
-                  <p className="card-text">Freelance project developing and shipping a new internship addition dashboard for partnered companies as part of RadicalX&apos;s revolutionary internship model.</p>
-                  <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
-                </div>
-
-              </div>
-        </SwiperSlide>
-        <SwiperSlide>
               <div className="card">
 
                 <div className="card-image">
