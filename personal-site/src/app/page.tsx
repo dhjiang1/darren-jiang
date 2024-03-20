@@ -212,7 +212,7 @@ export default function Home() {
                 <div className="card-content">
                   <span className="card-title">Data Analyst</span>
                   <span className="card-company">Scotiabank</span>
-                  <p className="card-text">Collaborated with Engineering in the development of a VBA testing tool used in the migration of Scotiabank's globally distributed data storage architecture.</p>
+                  <p className="card-text">Collaborated with Engineering in the development of a VBA testing tool used in the migration of Scotiabanks globally distributed data storage architecture.</p>
                   <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
