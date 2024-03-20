@@ -212,7 +212,7 @@ export default function Home() {
                 <div className="card-content">
                   <span className="card-title">Data Analyst</span>
                   <span className="card-company">Scotiabank</span>
-                  <p className="card-text">Collaborated with Engineering in the development of a VBA testing tool used in the migration of Scotiabank&#39s globally distributed data storage architecture.</p>
+                  <p className="card-text">Collaborated with Engineering in the development of a VBA testing tool used in the migration of Scotiabank’s globally distributed data storage architecture.</p>
                   <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
                 </div>
 
@@ -298,7 +298,7 @@ export default function Home() {
           <h2>Computing Option, Honours, GPA: 3.61</h2>
           <h2>University of Waterloo, Ontario</h2>
           <h3><b>Relevant Coursework:</b>Algorithms and Data Structures, HCI, Probability and Statistics, Databases and Software Design, Principles of Software Engineering (Scrum, Kanban, Waterfall), Analytics and User Experience</h3>
-          <h3><b>UWPM VP Outreach:</b>Led team of 4 outreach leads in the procurement of over $2000+ for UWPM&#39s marquee event.</h3>
+          <h3><b>UWPM VP Outreach:</b>Led team of 4 outreach leads in the procurement of over $2000+ for UWPM’s marquee event.</h3>
           <h3><b>Digitizing KidsAbility:</b>Spearheaded development of a data analytics platform built with PostgreSQL and React.js to replace physical processes, saving practitioners <b>76 hours a week</b></h3>
         </div>
       
