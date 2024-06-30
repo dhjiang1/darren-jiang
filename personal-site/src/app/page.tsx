@@ -36,7 +36,7 @@ export default function Home() {
           <a href="#homepage"><h1 className="active">home</h1></a>
           <a href="#about_page"><h1>about</h1></a>
           <a href="#skills_page"><h1>skills</h1></a>
-          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#experience_page"><h1>experience</h1></a>
           <a href="#contact"><h1>contact</h1></a>
         </nav>
 
@@ -48,7 +48,7 @@ export default function Home() {
           <a href="#homepage"><h1 className="active">home</h1></a>
           <a href="#about_page"><h1>about</h1></a>
           <a href="#skills_page"><h1>skills</h1></a>
-          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#experience_page"><h1>experience</h1></a>
           <a href="#contact"><h1>contact</h1></a>
         </nav>
 
@@ -143,11 +143,11 @@ export default function Home() {
       
       </section>
       
-      <section id="internships_page">
+      <section id="experience_page">
       
         <div className="section-header">
           <div className={styles.section_number}>03</div>
-          <div className={styles.section_title}>Internships</div>
+          <div className={styles.section_title}>Experience</div>
         </div>
 
 
@@ -309,7 +309,7 @@ export default function Home() {
           <a href="#homepage"><h1>home</h1></a>
           <a href="#about_page"><h1>about</h1></a>
           <a href="#skills_page"><h1>skills</h1></a>
-          <a href="#internships_page"><h1>experience</h1></a>
+          <a href="#experience_page"><h1>experience</h1></a>
           <a href="#contact"><h1 className="active">contact</h1></a>
         </nav>
 
