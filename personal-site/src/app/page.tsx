@@ -226,7 +226,7 @@ export default function Home() {
                 </div>
 
                 <div className="card-content">
-                  <span className="card-title">Fullstack Software Developer</span>
+                  <span className="card-title">Fullstack Software Engineer</span>
                   <span className="card-company">SponsorPulse</span>
                   <p className="card-text">Building the go-to platform for industry professionals to get everything sponsorship.</p>
                   <button className="card-btn"><a href="https://drive.google.com/file/d/1-MvnU9SmC7aIMsoZW4Svk4UNT25bzSbk/view?usp=sharing" target="_blank">View More</a></button>
